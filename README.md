@@ -39,7 +39,7 @@ The following are some of the key features of this project:
 Before you can start using this project, there are a few steps you need to take to set it up:
 
 1. Obtain API keys for ScrapeOps Proxy and OpenAI. These keys will allow you to access the necessary services and use the project.
-    1. To obtain API key for ScrapeOps Proxy you need to go to the [ScrapeOps website](https://www.scrapeops.com/) and [sign up for a free API key here](https://scrapeops.io/app/register/main). The free plan allows for up to 1,000 requests per month. However, the service can also be easily scaled up to handle millions of pages per month if needed.
+    1. To obtain API key for ScrapeOps Proxy you need to go to the [ScrapeOps website](https://www.scrapeops.io/) and [sign up for a free API key here](https://scrapeops.io/app/register/main). The free plan allows for up to 1,000 requests per month. However, the service can also be easily scaled up to handle millions of pages per month if needed.
 
     2. To get an API key for OpenAI, go to the [OpenAI website](https://beta.openai.com/) and click on the "Sign Up" button. Once you have created an account, click on the "API" tab in the top menu, scroll down to the "Get started with the API" section, and click on the "Get API Key" button. Follow the prompts to create a new API key.
 

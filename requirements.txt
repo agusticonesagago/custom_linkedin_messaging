@@ -6,6 +6,7 @@ requests==2.28.1
 scrapy==2.7.1
 scrapeops-scrapy==0.5.2
 scrapeops-scrapy-proxy-sdk==1.0
+Twisted==22.10.0
 uvicorn==0.20.0
 
 # Formatters
