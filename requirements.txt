@@ -3,10 +3,9 @@ fastapi==0.88.0
 pydantic==1.10.4
 python-dotenv==0.21.0
 requests==2.31.0
-scrapy==2.7.1
+scrapy==2.11.0
 scrapeops-scrapy==0.5.2
 scrapeops-scrapy-proxy-sdk==1.0
-Twisted==22.10.0
 uvicorn==0.20.0
 
 # Formatters
