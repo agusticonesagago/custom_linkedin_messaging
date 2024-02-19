@@ -24,7 +24,11 @@
 
 ## Introduction
 
-Revolutionize your recruitment process with this cutting-edge proof of concept! Building upon the LinkedIn [scraping project](https://github.com/python-scrapy-playbook/linkedin-python-scrapy-scraper) by [josephkearney91](https://github.com/josephkearney91), this tool leverages the power of the OpenAI API (Chat GPT) to send personalized messages to potential candidates in multiple languages. By scraping information from LinkedIn profiles, we can tailor the messages to better match the individual and stand out from the rest. Elevate your outreach strategy with targeted and individualized messages.
+Revolutionize your recruitment process with this cutting-edge proof of concept! Originally inspired by a LinkedIn [scraping project](https://github.com/python-scrapy-playbook/linkedin-python-scrapy-scraper) by [josephkearney91](https://github.com/josephkearney91), our methodology has undergone significant advancements. Moving from the original use of josephkearney91's code with ScrapeOps to leveraging a sophisticated scraping solution through Rapid API signifies a pivotal progression in our tool's development.
+
+Utilizing the capabilities of the OpenAI API, our tool is designed to dispatch customized messages to prospective candidates in a variety of languages. By mining data from LinkedIn profiles, we're able to craft messages that are not only personalized but also more engaging for the recipient, ensuring your communication cuts through the noise.
+
+Elevate your recruitment outreach with this tool that promises to deliver targeted and bespoke messages. Make the leap to a more dynamic and effective recruitment process, setting a new standard in how you connect with potential candidates.
 
 ## Features
 
@@ -38,12 +42,12 @@ The following are some of the key features of this project:
 
 Before you can start using this project, there are a few steps you need to take to set it up:
 
-1. Obtain API keys for ScrapeOps Proxy and OpenAI. These keys will allow you to access the necessary services and use the project.
-    1. To obtain API key for ScrapeOps Proxy you need to go to the [ScrapeOps website](https://www.scrapeops.io/) and [sign up for a free API key here](https://scrapeops.io/app/register/main). The free plan allows for up to 1,000 requests per month. However, the service can also be easily scaled up to handle millions of pages per month if needed.
+1. Obtain API keys for Rapid API and OpenAI. These keys will allow you to access the necessary services and use the project.
+    1. To obtain API key for Rapid API you need to go to the [Rapid API website](https://www.rapidapi.com/) and [sign up for a free API key here](https://rapidapi.com/freshdata-freshdata-default/api/fresh-linkedin-profile-data ). The free plan allows for up to 30 requests per month. However, the service can also be easily scaled up to handle millions of pages per month if needed.
 
     2. To get an API key for OpenAI, go to the [OpenAI website](https://beta.openai.com/) and click on the "Sign Up" button. Once you have created an account, click on the "API" tab in the top menu, scroll down to the "Get started with the API" section, and click on the "Get API Key" button. Follow the prompts to create a new API key.
 
-2. To use the API keys in this project, open the `.env` file in a text editor and replace "your_api_key" in the second line with the API key you obtained from ScrapeOps. The line should now read `SCRAPEOPS_API_KEY = "your_api_key"`. In addition to that, you also need to replace "your_api_key" in the first line with the API key you obtained from OpenAI. The line should now read `GPT_API_KEY = "your_key"`. Save the `.env` file. The `.env` file is used to store sensitive information, such as API keys, that should not be shared publicly. By placing the API keys in this file, you can use them in the project without exposing them to others.
+2. To use the API keys in this project, open the `.env` file in a text editor and replace "your_api_key" in the second line with the API key you obtained from Rapid API. The line should now read `RAPID_API_KEY = "your_api_key"`. In addition to that, you also need to replace "your_api_key" in the first line with the API key you obtained from OpenAI. The line should now read `GPT_API_KEY = "your_key"`. Save the `.env` file. The `.env` file is used to store sensitive information, such as API keys, that should not be shared publicly. By placing the API keys in this file, you can use them in the project without exposing them to others.
 
 3. To build the Docker image for this project, you will need to the following command: `docker-compose build`. This command should be run in the root directory of the project. It will create a Docker image that contains all the necessary components and dependencies for the project. 
 

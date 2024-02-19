@@ -19,6 +19,7 @@ Catch specific exceptions individually or use OpenAIError to catch any.
 
 class OpenAIException(Exception):
     """Custom exception for OpenAI errors."""
+
     def __init__(self, message: str):
         """Initializes a new instance of the exception.
 

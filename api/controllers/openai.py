@@ -35,4 +35,6 @@ def generate_message(request: str) -> requests.Response:
     try:
         return openai.completions(request)
     except requests.exceptions.HTTPError as http_error:
-        raise OpenAIException("An error occurred while generating message.") from http_error
+        raise OpenAIException(
+            "An error occurred while generating message."
+        ) from http_error

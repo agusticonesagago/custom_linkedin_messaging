@@ -23,6 +23,7 @@ import requests
 
 from dotenv import load_dotenv
 
+
 def completions(prompt: str) -> requests.Response:
     """Generates completions for the given prompt using the OpenAI API.
 
@@ -45,7 +46,7 @@ def completions(prompt: str) -> requests.Response:
         "Content-Type": "application/json",
     }
     data = {
-        "model": "text-davinci-002",
+        "model": "gpt-3.5-turbo-instruct",
         "prompt": prompt,
         "max_tokens": 2048,
         "temperature": 0.5,

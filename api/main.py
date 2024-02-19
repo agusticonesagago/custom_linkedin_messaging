@@ -18,7 +18,8 @@ from pydantic import BaseModel
 
 from .custom_messages import main
 
-class PromptRequest(BaseModel): # pylint: disable=too-few-public-methods
+
+class PromptRequest(BaseModel):  # pylint: disable=too-few-public-methods
     """Model for get the message prompt request.
 
     This model defines the data required for generating a LinkedIn message based on a job
@@ -29,6 +30,7 @@ class PromptRequest(BaseModel): # pylint: disable=too-few-public-methods
         job_description: The description of the vacancy for which the message will be generated.
         language: The language in which the message will be generated.
     """
+
     user: str
     job_description: str
     language: str
