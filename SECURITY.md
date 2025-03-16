@@ -2,27 +2,57 @@
 
 ## Supported Versions
 
-This is a personal project. Only the latest version is actively maintained and receives security updates.
+We maintain security updates for the following versions of our project:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| Latest  | :white_check_mark: |
-| Older   | :x:                |
+| 1.0.x   | :white_check_mark: |
+| < 1.0   | :x:                |
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please create an issue on GitHub with the label "security" and I will address it as soon as possible.
+We take security vulnerabilities seriously. If you discover a security vulnerability within this project, please follow these steps:
+
+1. **Do Not** disclose the vulnerability publicly until it has been addressed.
+2. Send a detailed report to [INSERT_SECURITY_EMAIL] including:
+   - A description of the vulnerability
+   - Steps to reproduce the issue
+   - Potential impact
+   - Suggested fixes (if any)
 
 ### What to Expect
 
-- I will acknowledge the report within a week
-- Updates will be made as time permits, with security issues taking priority
-- Once fixed, the changes will be documented in the release notes
+- You will receive an acknowledgment of your report within 48 hours.
+- We will investigate and provide a timeline for resolution within 5 business days.
+- We will keep you informed about the progress of the fix.
+- Once the vulnerability is fixed, we will publicly acknowledge your responsible disclosure (unless you prefer to remain anonymous).
 
-## Security Practices
+### Security Update Process
 
-- Dependencies are regularly updated for security patches
-- Code is maintained with basic security best practices
-- Recent security updates include:
-  - Pydantic upgrade to 1.10.13 for security fixes
-  - Black upgrade to 24.3.0 for improved code formatting
+- Security fixes are released as soon as possible after validation.
+- Updates are published in our release notes and dependency files.
+- Critical updates will be highlighted in our documentation and may trigger direct notifications to users.
+
+## Dependency Security
+
+We regularly monitor and update our dependencies to patch security vulnerabilities:
+
+- Dependencies are automatically monitored for security updates
+- Security patches are applied promptly
+- Major version updates are reviewed for breaking changes before implementation
+
+## Best Practices
+
+- We use automated security scanning tools
+- Regular dependency updates are performed
+- Code reviews include security considerations
+- We follow secure coding practices
+
+## Recent Security Updates
+
+Recent security-related updates include:
+- Pydantic upgrade to 1.10.13 for security patches
+- Regular monitoring of other dependencies for security advisories
+
+---
+Last updated: [CURRENT_DATE]
