@@ -2,7 +2,7 @@
 fastapi==0.109.1
 pydantic==1.10.13
 python-dotenv==0.21.0
-requests==2.32.2
+requests==2.32.4
 uvicorn==0.20.0
 
 # Formatters
